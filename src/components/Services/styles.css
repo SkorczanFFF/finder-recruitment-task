@@ -31,7 +31,7 @@
 }
 
 .hidden {
-  height: 130px;
+  height: 125px;
   overflow: hidden;
 }
 
@@ -116,12 +116,25 @@
   .services__container {
     padding: 0 1.25rem;
   }
+  .services h2 {
+    font-size: 24px;
+    margin-bottom: 2px;
+  }
+  .services p {
+    font-size: 18px;
+  }
   .tiles {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
   .tile {
     min-width: auto;
     min-height: 103px;
+  }
+}
+
+@media (max-width: 768px) {
+  .tile h3 {
+    font-size: 14px;
   }
 }
 
