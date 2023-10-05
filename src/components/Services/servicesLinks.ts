@@ -1,4 +1,10 @@
-const servicesLinks = [
+interface IServiceLink {
+  linkTitle: string;
+  icon: string;
+  link: string;
+}
+
+const servicesLinks: IServiceLink[] = [
   {
     linkTitle: "Credit Cards",
     icon: "/svg/creditcard.svg",
