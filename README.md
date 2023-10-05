@@ -62,6 +62,7 @@ npm install
 ```
 
 ## Step 4: Start the Development Server
+1. Run command in VS Code terminal:
 
 ```bash
 npm start
