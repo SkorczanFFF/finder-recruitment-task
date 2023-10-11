@@ -2,7 +2,7 @@
 
 ## About
 
-This is recruitment task for Finder. Built with React and CSS.
+Recruitment task for Finder. Built with React, Typescript and CSS. Includes responsive layuout. 
 
 ## How to launch
 
@@ -62,7 +62,15 @@ npm install
 ```
 
 ## Step 4: Start the Development Server
+1. Run command in VS Code terminal:
 
 ```bash
 npm start
 ```
+
+2. This will start the development server, which will be accessible at 
+```
+localhost:3000
+```
+
+
